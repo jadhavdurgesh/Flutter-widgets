@@ -1,8 +1,10 @@
 // import 'package:all_about_widgets/widgets/alert_dialog_widget.dart';
 // import 'package:all_about_widgets/widgets/align_widget.dart';
+// import 'package:all_about_widgets/widgets/animted_default_textstyle.dart';
 import 'package:flutter/material.dart';
-import 'animated_container.dart';
-import 'animated_crossfade.dart';
+// import 'widgets/animated_container.dart';
+// import 'widgets/animated_crossfade.dart';
+import 'widgets/animated_icon.dart';
 // import 'widgets/animated_builder_widget.dart';
 
 void main() {
@@ -29,7 +31,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const AnimatedCrossFadeWidget(),
+      home: const AnimatedIconWidget(),
     );
   }
 }
