@@ -43,6 +43,7 @@ class _AnimatedIconWidgetState extends State<AnimatedIconWidget> with TickerProv
         },
         child: AnimatedIcon(
           icon: AnimatedIcons.play_pause,
+          color: Colors.white,
           progress: _controller,
           size: 100,
         ),
