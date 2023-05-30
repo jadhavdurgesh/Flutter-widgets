@@ -1,4 +1,5 @@
-import 'package:all_about_widgets/widgets/safearea_widget.dart';
+import 'package:all_about_widgets/widgets/expanded_widget.dart';
+// import 'package:all_about_widgets/widgets/safearea_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SafeAreaWidget(),
+      home: const ExpandedWidget(),
     );
   }
 }
