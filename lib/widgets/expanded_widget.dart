@@ -15,6 +15,7 @@ class _ExpandedWidgetState extends State<ExpandedWidget> {
         child: Column(
           children: [
             Expanded(
+              flex: 2,
               child: Container(
                 height: 10,
                 width: double.infinity,
