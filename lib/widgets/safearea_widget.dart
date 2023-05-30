@@ -13,7 +13,7 @@ class _SafeAreaWidgetState extends State<SafeAreaWidget> {
       body: SafeArea(
         minimum: EdgeInsets.all(30),
         maintainBottomViewPadding: true,
-        child: Text('Hello World',
+        child: Text('Hello World', 
         style: TextStyle(
           fontSize: 40,
           fontWeight: FontWeight.bold,
