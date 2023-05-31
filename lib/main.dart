@@ -1,7 +1,9 @@
 // import 'package:all_about_widgets/widgets/expanded_widget.dart';
-import 'package:all_about_widgets/widgets/flexible_widget.dart';
+// import 'package:all_about_widgets/widgets/flexible_widget.dart';
 // import 'package:all_about_widgets/widgets/safearea_widget.dart';
 import 'package:flutter/material.dart';
+
+import 'widgets/textfield_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const FlexibleWidget(),
+      home: const TextFieldWidget(),
     );
   }
 }
