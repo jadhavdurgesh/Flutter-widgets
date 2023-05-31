@@ -21,6 +21,12 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
             // readOnly: true, // as a user we cannot input data into it 
             autofocus: true,
             decoration: InputDecoration(
+
+              // icon: const Icon(Icons.person),
+              prefix: const Icon(Icons.person , color: Colors.red, size: 30,),
+              suffix: const Icon(Icons.search , color: Colors.blue,),
+
+              suffixText: ,
               // filled: true,
               // fillColor: Colors.blueAccent,
               border: OutlineInputBorder(
@@ -48,7 +54,7 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
               // focus border initially jo border hoti hain woh hota hain  
               focusedBorder: const OutlineInputBorder(
                 borderSide: BorderSide(color: Colors.yellow , width: 4)
-              )// labelStyle:
+              ),
             ),
           ),
         ),
