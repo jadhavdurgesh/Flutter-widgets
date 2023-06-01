@@ -23,18 +23,21 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
             decoration: InputDecoration(
 
               // icon: const Icon(Icons.person),
-              prefix: const Icon(Icons.person , color: Colors.red, size: 30,),
-              suffix: const Icon(Icons.search , color: Colors.blue,),
+              // prefix: const Icon(Icons.person , color: Colors.red, size: 30,),
+              // suffix: const Icon(Icons.search , color: Colors.blue,),
 
-              suffixText: ,
+              // suffixText: 'email',
+              // prefixText: 'gmail',
+
               // filled: true,
               // fillColor: Colors.blueAccent,
+
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(10),
                 // borderSide: BorderSide.none
               ),
               // border: InputBorder.none,
-              hintText: 'Enter your full name ',
+              // hintText: 'Enter your full name ',
               // hintStyle: const TextStyle(
               //   fontSize: 30,
               // ),
@@ -56,6 +59,19 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
                 borderSide: BorderSide(color: Colors.yellow , width: 4)
               ),
             ),
+            
+            // cursorColor: Colors.blue,
+            // cursorWidth: 10,
+            // cursorHeight: 10,
+            // showCursor: false,
+
+            // maxLines: 3, //(null can also be given , which represents unlimited lines)
+            // maxLength: 10, // decides lenght on character 
+
+            obscureText: true, // dotted format text 
+            obscuringCharacter: '+', // koi bhi character de skte hain instead of dotted 
+
+            // toolbarOptions: ToolbarOptions()
           ),
         ),
         ),
