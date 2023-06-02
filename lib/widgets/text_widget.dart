@@ -22,6 +22,7 @@ class _TextWidgetState extends State<TextWidget> {
           // maxLines: 3,
           // semanticsLabel: 'Hash sign',
           style: TextStyle(
+            // debugLabel: 'jadhav',
             // fontWeight: FontWeight.bold,
             fontSize: 50,
             // fontStyle: FontStyle.italic,
@@ -51,14 +52,16 @@ class _TextWidgetState extends State<TextWidget> {
 
             // backgroundColor: Colors.lightBlue
 
-            shadows: [
-              Shadow(
-                color: Colors.blue,
-                offset: Offset(2, 5),
-                blurRadius: 20,
-              )
-            ]
+            // shadows: [
+            //   Shadow(
+            //     color: Colors.blue,
+            //     offset: Offset(2, 5),
+            //     blurRadius: 20,
+            //   )
+            // ]
           ),
+
+          // selectionColor: Colors.red,
         ),
       ),
     );
