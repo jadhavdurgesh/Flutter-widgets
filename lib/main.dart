@@ -4,6 +4,7 @@
 import 'package:flutter/material.dart';
 
 import 'widgets/container.dart';
+import 'widgets/text_widget.dart';
 
 // import 'widgets/textfield_widget.dart';
 
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const ContainerWidget(),
+      home: const TextWidget(),
     );
   }
 }
