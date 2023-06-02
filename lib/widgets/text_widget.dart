@@ -17,14 +17,47 @@ class _TextWidgetState extends State<TextWidget> {
           // textAlign: TextAlign.center,
           // textDirection: TextDirection.ltr,
           // overflow: TextOverflow.ellipsis,
-          textScaleFactor: 3,
+          // textScaleFactor: 3,
           // softWrap: true,
           // maxLines: 3,
           // semanticsLabel: 'Hash sign',
           style: TextStyle(
             // fontWeight: FontWeight.bold,
-            // fontSize: 50,
-            color: Colors.black38
+            fontSize: 50,
+            // fontStyle: FontStyle.italic,
+
+            // decoration: TextDecoration.lineThrough,
+            // decoration: TextDecoration.combine(
+            //   [
+            //   TextDecoration.underline,
+            //   TextDecoration.lineThrough
+            //   ]
+            // ),
+            // decorationColor: Colors.black,
+            // decorationThickness: 12,
+            // decorationStyle: TextDecorationStyle.dashed,
+            // letterSpacing: 6,
+            // wordSpacing: 10,
+            // color: Colors.black38,
+
+            // foreground: Paint()
+            // ..color = Colors.purple
+            // ..strokeWidth = 3.0 
+            // ..style = PaintingStyle.stroke
+            // background: Paint()
+            // ..color = Colors.purple
+            // ..strokeWidth = 1.0 
+            // ..style = PaintingStyle.stroke
+
+            // backgroundColor: Colors.lightBlue
+
+            shadows: [
+              Shadow(
+                color: Colors.blue,
+                offset: Offset(2, 5),
+                blurRadius: 20,
+              )
+            ]
           ),
         ),
       ),
