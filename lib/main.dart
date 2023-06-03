@@ -1,10 +1,11 @@
 // import 'package:all_about_widgets/widgets/expanded_widget.dart';
 // import 'package:all_about_widgets/widgets/flexible_widget.dart';
 // import 'package:all_about_widgets/widgets/safearea_widget.dart';
+import 'package:all_about_widgets/widgets/textspan_widget.dart';
 import 'package:flutter/material.dart';
 
 // import 'widgets/container.dart';
-import 'widgets/default_textstyle_widget.dart';
+// import 'widgets/default_textstyle_widget.dart';
 // import 'widgets/text_widget.dart';
 
 // import 'widgets/textfield_widget.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const DefaultTextStyleWidget(),
+      home: const TextSpanWidget(),
     );
   }
 }
