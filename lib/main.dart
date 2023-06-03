@@ -6,7 +6,8 @@
 // import 'package:all_about_widgets/widgets/Clipper%20Widget/cliprrect_widget.dart';
 // import 'package:all_about_widgets/widgets/Text%20Widget/text.rich_widget.dart';
 // import 'package:all_about_widgets/widgets/textspan_widget.dart';
-import 'package:all_about_widgets/widgets/Clipper%20Widget/clipoval_widget.dart';
+// import 'package:all_about_widgets/widgets/Clipper%20Widget/clipoval_widget.dart';
+import 'package:all_about_widgets/widgets/drawer_widget.dart';
 import 'package:flutter/material.dart';
 
 // import 'widgets/container.dart';
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const ClipOvalWidget(),
+      home: const DrawerWidget(),
     );
   }
 }
