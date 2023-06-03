@@ -14,6 +14,7 @@ class _ClipRRectWidgetState extends State<ClipRRectWidget> {
       body: Center(
         child: ClipRRect(
           borderRadius: BorderRadius.circular(19),
+          clipBehavior: Clip.antiAlias,
           child: Align(
             // alignment: Alignment.center,
             heightFactor: 0.7,
