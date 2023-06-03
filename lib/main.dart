@@ -1,8 +1,8 @@
 // import 'package:all_about_widgets/widgets/expanded_widget.dart';
 // import 'package:all_about_widgets/widgets/flexible_widget.dart';
 // import 'package:all_about_widgets/widgets/safearea_widget.dart';
-import 'package:all_about_widgets/widgets/richtext_widget.dart';
-import 'package:all_about_widgets/widgets/text.rich_widget.dart';
+import 'package:all_about_widgets/widgets/Text%20Widget/richtext_widget.dart';
+import 'package:all_about_widgets/widgets/Text%20Widget/text.rich_widget.dart';
 // import 'package:all_about_widgets/widgets/textspan_widget.dart';
 import 'package:flutter/material.dart';
 
