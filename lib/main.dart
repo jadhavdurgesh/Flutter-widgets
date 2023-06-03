@@ -2,6 +2,7 @@
 // import 'package:all_about_widgets/widgets/flexible_widget.dart';
 // import 'package:all_about_widgets/widgets/safearea_widget.dart';
 import 'package:all_about_widgets/widgets/richtext_widget.dart';
+import 'package:all_about_widgets/widgets/text.rich_widget.dart';
 // import 'package:all_about_widgets/widgets/textspan_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const RichTextWidget(),
+      home: const TextRichWidget(),
     );
   }
 }
