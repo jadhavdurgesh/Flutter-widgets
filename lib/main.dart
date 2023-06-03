@@ -2,7 +2,8 @@
 // import 'package:all_about_widgets/widgets/flexible_widget.dart';
 // import 'package:all_about_widgets/widgets/safearea_widget.dart';
 // import 'package:all_about_widgets/widgets/Text%20Widget/richtext_widget.dart';
-import 'package:all_about_widgets/widgets/Clipper%20Widget/clipreact_widget.dart';
+// import 'package:all_about_widgets/widgets/Clipper%20Widget/cliprect_widget.dart';
+import 'package:all_about_widgets/widgets/Clipper%20Widget/cliprrect_widget.dart';
 // import 'package:all_about_widgets/widgets/Text%20Widget/text.rich_widget.dart';
 // import 'package:all_about_widgets/widgets/textspan_widget.dart';
 import 'package:flutter/material.dart';
@@ -27,7 +28,6 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
-        //
         // Try running your application with "flutter run". You'll see the
         // application has a blue toolbar. Then, without quitting the app, try
         // changing the primarySwatch below to Colors.green and then invoke
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const ClipRectWidget(),
+      home: const ClipRRectWidget(),
     );
   }
 }
