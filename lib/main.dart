@@ -11,7 +11,9 @@
 // import 'package:all_about_widgets/widgets/drawer_widget.dart';
 import 'package:flutter/material.dart';
 
-import 'widgets/circleavatar_widget.dart';
+import 'widgets/inkwell_widget.dart';
+
+// import 'widgets/circleavatar_widget.dart';
 
 // import 'widgets/container.dart';
 // import 'widgets/default_textstyle_widget.dart';
@@ -42,7 +44,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const CircleAvatarWidget(),
+      home: const InkWellWidget(),
     );
   }
 }
