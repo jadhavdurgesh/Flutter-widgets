@@ -15,6 +15,8 @@ class _DrawerWidgetState extends State<DrawerWidget> {
         title: const Text("Drawer widget"),
       ),
       drawer: Drawer(
+        backgroundColor: Colors.blue,
+        // elevation: 20,
         child: ListView(
           children: [
             DrawerHeader(
