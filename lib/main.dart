@@ -9,9 +9,10 @@
 // import 'package:all_about_widgets/widgets/Clipper%20Widget/clipoval_widget.dart';
 // import 'package:all_about_widgets/widgets/buttonbar_widget.dart';
 // import 'package:all_about_widgets/widgets/drawer_widget.dart';
+import 'package:all_about_widgets/widgets/divider_widget.dart';
 import 'package:flutter/material.dart';
 
-import 'widgets/inkwell_widget.dart';
+// import 'widgets/inkwell_widget.dart';
 
 // import 'widgets/circleavatar_widget.dart';
 
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const InkWellWidget(),
+      home: const DividerWidget(),
     );
   }
 }
