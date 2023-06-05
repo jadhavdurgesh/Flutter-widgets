@@ -16,8 +16,11 @@ class _SnackBarWidgetState extends State<SnackBarWidget> {
         return Center(
           child: ElevatedButton(
               onPressed: () {
-                const message = SnackBar(content: Text('This is SnackBar'));
-                ScaffoldMessenger.of(context).showSnackBar(message);
+                // const message = SnackBar(content: Text('This is SnackBar'));
+                ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                  content: const Text('Check your connection'),
+                  action: SnackBarAction(label: 'Action', onPressed: (){}),
+                ));
               },
               child: const Text('Click me')),
         );
