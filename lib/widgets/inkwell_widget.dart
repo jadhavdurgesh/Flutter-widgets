@@ -15,6 +15,7 @@ class _InkWellWidgetState extends State<InkWellWidget> {
         child: InkWell(
           onTap: (){},
           onTapDown: (details) {
+            // ignore: avoid_print
             print('object');
           },
           splashColor: Colors.orange,
