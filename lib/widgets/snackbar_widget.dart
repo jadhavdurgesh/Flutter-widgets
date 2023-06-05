@@ -20,6 +20,13 @@ class _SnackBarWidgetState extends State<SnackBarWidget> {
                 ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                   content: const Text('Check your connection'),
                   action: SnackBarAction(label: 'Action', onPressed: (){}),
+                  duration: const Duration(seconds: 1),
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  width: 300,
+                  behavior: SnackBarBehavior.floating,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(8)
+                  ),
                 ));
               },
               child: const Text('Click me')),
