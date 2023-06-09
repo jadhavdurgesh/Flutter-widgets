@@ -12,8 +12,10 @@
 // import 'package:all_about_widgets/widgets/divider_widget.dart';
 // import 'package:all_about_widgets/widgets/snackbar_widget.dart';
 // import 'package:all_about_widgets/widgets/card_widget.dart';
-import 'package:all_about_widgets/widgets/List%20widget/listview_widget.dart';
-import 'package:all_about_widgets/widgets/single_child_scrollview_widget.dart';
+// import 'package:all_about_widgets/widgets/List%20widget/listview_widget.dart';
+// import 'package:all_about_widgets/widgets/about_list_tile_widget.dart';
+// import 'package:all_about_widgets/widgets/single_child_scrollview_widget.dart';
+import 'package:all_about_widgets/widgets/listtile.dart';
 import 'package:flutter/material.dart';
 
 // import 'widgets/verticaldivider_widget.dart';
@@ -51,7 +53,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const ListViewWidget(),
+      home: const ListTileWidget(),
     );
   }
 }
