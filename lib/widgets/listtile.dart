@@ -17,8 +17,8 @@ class _ListTileWidgetState extends State<ListTileWidget> {
           context: context,
           tiles: [
           ListTile(
-            title: Text('Got Back'),
-            leading: Icon(Icons.person),
+            title: const Text('Got Back'),
+            leading: const Icon(Icons.person),
             onTap: () {},
           ),
           const ListTile(
